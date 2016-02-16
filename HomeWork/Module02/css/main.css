@@ -1,25 +1,26 @@
 html {
-    margin: 0;
-    padding: 0; 
-    background-color: #e6e9e9;
+      
 }
 body {
     margin: 0;
     padding: 0; 
+    background-color: #e6e9e9;
 }
 .page {
     /*margin: 4px, 464px, 52px, 464px - замеры на макете, разрешение 1440x806*/
-    margin-top: 0.5%; /*4px*/
-    margin-bottom: 6.45%; /*52px*/
-    margin-left: 32%; /*464px*/
-    padding-right: 3.47%; 
-    padding-left: 3.47%; 
-    width: 35%;
+    margin-top: 4px; /*4px*/
+    margin-bottom: 52px; /*52px*/
+    margin-left: 464px; /*464px*/
+    margin-right: 464px; /*464px*/
+    padding-right: 50px; 
+    padding-left: 50px; 
+    width: 35%; /* 512px */
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: left;
 }
-#fio{
+#personal_name{
+    
     font-size: 120%;
     font-weight: bold;
     text-align: center;
@@ -27,24 +28,20 @@ body {
 #img1 {
     text-align: center;
 }
-.iam{
-    padding-top: 6%;
+.personal_data{
+    padding-top: 48px; 
     border-bottom: 1px solid black;
     align-content: center;
-    padding-left: 2%;
 }
 
-.want{
+.persona_wish{
     border-bottom: 1px solid black;
-    padding-left: 2%;
 }
 .contacts{
     border-bottom: 1px solid black;
-    padding-left: 2%;
 }
 .feedback{
-    padding-left: 2%;
-    padding-bottom: 6%;
+    padding-bottom: 48px;
 }
 
 a {
